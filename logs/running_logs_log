@@ -90,3 +90,158 @@ Source-Age: 0
 [2023-10-14 20:13:40,286: INFO: main: >>>>>> stage Data Ingesttion stage completed <<<<<<
 
 x=============x]
+[2023-10-14 23:46:14,639: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-14 23:46:14,647: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-14 23:46:14,651: INFO: common: created directory at: artifacts]
+[2023-10-14 23:49:24,385: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-14 23:49:24,389: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-14 23:49:24,393: INFO: common: created directory at: artifacts]
+[2023-10-14 23:54:14,521: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-14 23:54:14,529: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-14 23:54:14,533: INFO: common: created directory at: artifacts]
+[2023-10-14 23:54:14,537: INFO: common: created directory at: artifacts/data_validation]
+[2023-10-14 23:57:52,878: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-14 23:57:52,886: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-14 23:57:52,890: INFO: common: created directory at: artifacts]
+[2023-10-14 23:57:52,894: INFO: common: created directory at: artifacts/data_validation]
+[2023-10-14 23:58:14,572: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-14 23:58:14,580: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-14 23:58:14,584: INFO: common: created directory at: artifacts]
+[2023-10-14 23:58:14,588: INFO: common: created directory at: artifacts/data_validation]
+[2023-10-15 00:02:09,792: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-15 00:02:09,799: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-15 00:02:09,803: INFO: common: created directory at: artifacts]
+[2023-10-15 00:02:09,807: INFO: common: created directory at: artifacts/data_validation]
+[2023-10-15 00:02:22,243: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-15 00:02:22,247: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-15 00:02:22,251: INFO: common: created directory at: artifacts]
+[2023-10-15 00:02:22,255: INFO: common: created directory at: artifacts/data_validation]
+[2023-10-15 00:23:22,853: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-15 00:23:22,861: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-15 00:23:22,861: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-15 00:23:22,865: INFO: common: created directory at: artifacts]
+[2023-10-15 00:23:22,865: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-15 00:23:27,556: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B65C:6A8E9:EBABF:18D8D8:652AE3A3
+Accept-Ranges: bytes
+Date: Sat, 14 Oct 2023 18:53:24 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21721-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1697309604.112225,VS0,VE678
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a8110994b20596b1e9362ff1b7e79c8ce141bd69
+Expires: Sat, 14 Oct 2023 18:58:24 GMT
+Source-Age: 0
+
+]
+[2023-10-15 00:23:27,912: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x=============x]
+[2023-10-15 00:23:27,916: INFO: main: >>>>>> stage Data  validation stage started <<<<<<]
+[2023-10-15 00:23:27,920: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-15 00:23:27,924: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-15 00:23:27,924: INFO: common: created directory at: artifacts]
+[2023-10-15 00:23:27,924: ERROR: main: 'ConfigurationManager' object has no attribute 'get_data_ingestions_config']
+Traceback (most recent call last):
+  File "C:\Users\Abdul\Desktop\text\text-summarizer-project\main.py", line 25, in <module>
+    data_validation.main()
+  File "c:\users\abdul\desktop\text\text-summarizer-project\src\textSummarizer\pipeline\stage_02_data_validation.py", line 12, in main
+    data_validation_config = config.get_data_ingestions_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigurationManager' object has no attribute 'get_data_ingestions_config'
+[2023-10-15 00:24:17,940: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-15 00:24:17,948: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-15 00:24:17,952: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-15 00:24:17,956: INFO: common: created directory at: artifacts]
+[2023-10-15 00:24:17,956: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-15 00:24:17,956: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-10-15 00:24:18,236: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x=============x]
+[2023-10-15 00:24:18,236: INFO: main: >>>>>> stage Data  validation stage started <<<<<<]
+[2023-10-15 00:24:18,240: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-15 00:24:18,244: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-15 00:24:18,244: INFO: common: created directory at: artifacts]
+[2023-10-15 00:24:18,248: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-15 00:24:18,248: ERROR: main: 'DataValiadtion' object has no attribute 'download_file']
+Traceback (most recent call last):
+  File "C:\Users\Abdul\Desktop\text\text-summarizer-project\main.py", line 25, in <module>
+    data_validation.main()
+  File "c:\users\abdul\desktop\text\text-summarizer-project\src\textSummarizer\pipeline\stage_02_data_validation.py", line 14, in main
+    data_validation.download_file()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataValiadtion' object has no attribute 'download_file'
+[2023-10-15 00:27:43,030: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-15 00:27:43,034: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-15 00:27:43,038: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-15 00:27:43,042: INFO: common: created directory at: artifacts]
+[2023-10-15 00:27:43,042: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-15 00:27:43,046: INFO: data_ingestion: File already exists of size: ~ 7718 KB]
+[2023-10-15 00:27:43,306: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x=============x]
+[2023-10-15 00:27:43,310: INFO: main: >>>>>> stage Data  validation stage started <<<<<<]
+[2023-10-15 00:27:43,314: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-15 00:27:43,314: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-15 00:27:43,318: INFO: common: created directory at: artifacts]
+[2023-10-15 00:27:43,318: INFO: common: created directory at: artifacts/data_validation]
+[2023-10-15 00:27:43,330: INFO: main: >>>>>> stage Data  validation stage completed <<<<<<
+
+x=============x]
+[2023-10-15 00:29:51,739: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-15 00:29:51,747: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-15 00:29:51,751: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-15 00:29:51,751: INFO: common: created directory at: artifacts]
+[2023-10-15 00:29:51,751: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-15 00:29:53,750: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: B65C:6A8E9:EBABF:18D8D8:652AE3A3
+Accept-Ranges: bytes
+Date: Sat, 14 Oct 2023 18:59:52 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21736-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1697309992.354170,VS0,VE279
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 99c730ac53aa69170c840ccef273fe093b9fd4e4
+Expires: Sat, 14 Oct 2023 19:04:52 GMT
+Source-Age: 0
+
+]
+[2023-10-15 00:29:54,112: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x=============x]
+[2023-10-15 00:29:54,116: INFO: main: >>>>>> stage Data  validation stage started <<<<<<]
+[2023-10-15 00:29:54,124: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-15 00:29:54,148: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-15 00:29:54,152: INFO: common: created directory at: artifacts]
+[2023-10-15 00:29:54,160: INFO: common: created directory at: artifacts/data_validation]
+[2023-10-15 00:29:54,168: INFO: main: >>>>>> stage Data  validation stage completed <<<<<<
+
+x=============x]
