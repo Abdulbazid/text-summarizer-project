@@ -1,0 +1,92 @@
+[2023-10-13 23:00:21,738: INFO: main: welcome to our custom logging]
+[2023-10-14 19:32:11,836: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-14 19:32:11,852: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-14 19:32:11,856: INFO: common: created directory at: artifacts]
+[2023-10-14 19:32:11,856: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-14 19:36:30,021: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-14 19:36:30,029: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-14 19:36:30,029: INFO: common: created directory at: artifacts]
+[2023-10-14 19:36:30,033: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-14 19:43:10,744: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-14 19:43:10,747: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-14 19:43:10,752: INFO: common: created directory at: artifacts]
+[2023-10-14 19:43:10,756: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-14 19:45:20,139: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-14 19:45:20,148: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-14 19:45:20,151: INFO: common: created directory at: artifacts]
+[2023-10-14 19:45:20,155: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-14 19:46:24,302: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-14 19:46:24,306: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-14 19:46:24,308: INFO: common: created directory at: artifacts]
+[2023-10-14 19:46:24,312: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-14 19:46:27,674: INFO: 2727957522: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 74EE:144642:343F4:5742A:652AA2B8
+Accept-Ranges: bytes
+Date: Sat, 14 Oct 2023 14:16:25 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21750-DEL
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1697292984.403207,VS0,VE725
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: eb5fc0b1b2de1192daffd72de3152c32864142ea
+Expires: Sat, 14 Oct 2023 14:21:25 GMT
+Source-Age: 0
+
+]
+[2023-10-14 19:47:38,562: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-14 19:47:38,570: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-14 19:47:38,570: INFO: common: created directory at: artifacts]
+[2023-10-14 19:47:38,574: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-14 19:47:38,578: INFO: 1434958058: File already exists of size: ~ 7718 KB]
+[2023-10-14 20:11:17,445: INFO: main: >>>>>> stage Data Ingesttion stage started <<<<<<]
+[2023-10-14 20:11:17,445: INFO: main: >>>>>> stage Data Ingesttion stage completed <<<<<<
+
+x=============x]
+[2023-10-14 20:13:36,078: INFO: main: >>>>>> stage Data Ingesttion stage started <<<<<<]
+[2023-10-14 20:13:36,082: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\config\config.yaml loaded successfully]
+[2023-10-14 20:13:36,086: INFO: common: yaml file: C:\Users\Abdul\Desktop\text\text-summarizer-project\param.yaml loaded successfully]
+[2023-10-14 20:13:36,086: INFO: common: created directory at: artifacts]
+[2023-10-14 20:13:36,086: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-14 20:13:39,991: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 74EE:144642:343F4:5742A:652AA2B8
+Accept-Ranges: bytes
+Date: Sat, 14 Oct 2023 14:43:36 GMT
+Via: 1.1 varnish
+X-Served-By: cache-del21742-DEL
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1697294616.204535,VS0,VE280
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 3c9883ee82b6de3123817e8e08e945d24b16f9d0
+Expires: Sat, 14 Oct 2023 14:48:36 GMT
+Source-Age: 0
+
+]
+[2023-10-14 20:13:40,286: INFO: main: >>>>>> stage Data Ingesttion stage completed <<<<<<
+
+x=============x]
